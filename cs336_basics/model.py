@@ -3,7 +3,7 @@ import torch
 from torch import nn
 from einops import rearrange
 
-from cs336_basics.nn_utils import scaled_dot_product_attention
+from cs336_basics.utils import scaled_dot_product_attention
 
 
 class Linear(nn.Module):
