@@ -17,14 +17,13 @@ cs336_basics/
 ├── utils.py        # Core utilities (loss, softmax, LR schedule, clipping)
 ├── train.py        # Training loop & checkpointing
 └── decoding.py     # Autoregressive text generation
-
+```
 ## Component Overview 
 
 ### 1. Byte-Level BPE Tokenizer (bpe.py, tokenizer.py)
 
 Implements a byte-level Byte Pair Encoding (BPE) tokenizer, following Section 2 of the PDF.
 
-```md
 Key features:
 - UTF-8 byte encoding (initial vocab size = 256)
 - GPT-2 style regex pre-tokenization
